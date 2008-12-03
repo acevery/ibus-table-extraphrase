@@ -21,4 +21,4 @@
 prefix=@prefix@
 datarootdir=@datarootdir@
 datadir=@datadir@
-echo "@datadir@/ibus-table/data/extra_phrase.txt.bz2"
+echo "@datadir@/ibus-table/data/extra_phrase.txt"

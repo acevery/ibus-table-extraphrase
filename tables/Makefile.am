@@ -24,7 +24,7 @@
 #
 
 extra_tables_DATA = \
-	extra_phrase.txt.bz2 \
+	extra_phrase.txt \
 	$(NULL)
 
 bin_SCRIPTS = \
@@ -33,7 +33,7 @@ bin_SCRIPTS = \
 
 extra_tablesdir = $(datadir)/ibus-table/data
 
-EXTRA_DIST = extra_phrase.txt.bz2 \
+EXTRA_DIST = extra_phrase.txt \
 			 ibus-table-extraphrase.in \
 			 $(NULL)
 
