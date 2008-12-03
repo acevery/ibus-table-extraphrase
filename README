@@ -7,3 +7,5 @@ To install this package, you need install ibus-table first.
 This package will also provide a script, called ibus-table-extraphrase,
 to print the path of extra_phrase.txt.bz2, which can be used when using
 ibus-table-createdb to generate IME database.
+
+If you have any suggestion, please file an issue at http://code.google.com/p/ibus/issues/list
