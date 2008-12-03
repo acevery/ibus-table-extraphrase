@@ -1,6 +1,6 @@
 # vim:set noet ts=4:
 #
-# ibus-table
+# ibus-table-extraphrase - Extra Chinese phrases for IBus Table
 #
 # Copyright (c) 2007-2008 Yu Yuwei <acevery@gmail.com>
 #
