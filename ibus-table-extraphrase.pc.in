@@ -1,0 +1,17 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+datarootdir=@datarootdir@
+datadir=@datadir@
+
+extraphrasepath=@datadir@/ibus-table/data/extra_phrase.txt
+
+ibus_table_extraphrase_version=@PACKAGE_VERSION@
+
+Name: IBus-Table-Extraphrase
+Description: Extra Chinese phrases for IBus Table
+Version: @PACKAGE_VERSION@
+Requires: ibus-table
+Libs: 
+Cflags: 
+
