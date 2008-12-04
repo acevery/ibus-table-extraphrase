@@ -1,4 +1,4 @@
-# vim:set noet ts=4:
+# vim:set ts=4
 #
 # ibus-table-extraphrase - Extra Chinese phrases for IBus Table
 #
@@ -23,17 +23,12 @@
 # $Id: $
 #
 
-extra_tables_DATA = \
+extra_phrase_DATA = \
 	extra_phrase.txt \
 	$(NULL)
 
-bin_SCRIPTS = \
-	ibus-table-extraphrase \
-	$(NULL)
-
-extra_tablesdir = $(datadir)/ibus-table/data
+extra_phrasedir = $(datadir)/ibus-table/data
 
 EXTRA_DIST = extra_phrase.txt \
-			 ibus-table-extraphrase.in \
 			 $(NULL)
 

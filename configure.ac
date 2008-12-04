@@ -51,7 +51,9 @@ AC_PATH_PROG([IBUS_TABLE_CREATEDB],[ibus-table-createdb],
 # Checks for library functions.
 
 AC_CONFIG_FILES([Makefile
-                 m4/Makefile
-                 tables/Makefile
-                 tables/ibus-table-extraphrase])
+    m4/Makefile
+    data/Makefile
+    ibus-table-extraphrase.pc]
+)
+
 AC_OUTPUT

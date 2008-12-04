@@ -19,10 +19,16 @@
 # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 SUBDIRS = \
-	tables \
+	data \
 	$(NULL)
 
 ACLOCAL_AMFLAGS = -I m4
+
+pkgconfig_DATA = \
+	ibus-table-extraphrase.pc \
+	$(NULL)
+
+pkgconfigdir = $(libdir)/pkgconfig
 
 EXTRA_DIST = \
 	autogen.sh \
