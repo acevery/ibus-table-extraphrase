@@ -26,7 +26,7 @@ m4_define([package_name], [ibus-table-extraphrase])
 m4_define([ibus_released], [0])
 m4_define([ibus_major_version], [0])
 m4_define([ibus_minor_version], [1])
-m4_define([ibus_micro_version], [1])
+m4_define([ibus_micro_version], [2])
 m4_define(ibus_maybe_datestamp,
     m4_esyscmd([if test x]ibus_released[ != x1; then date +.%Y%m%d | tr -d '\n\r'; fi]))
 
@@ -37,6 +37,8 @@ AC_INIT([package_name], [ibus_version], [http://code.google.com/p/ibus/issues/en
 AM_INIT_AUTOMAKE([1.10])
 
 # Checks for programs.
+PKG_CHECK_MODULES([IBUS_TABLE], [ibus-table >= 0.1.2])
+
 AC_ARG_VAR([IBUS_TABLE_CREATEDB],[[ibus-table-createdb, which generate db]])
 
 AC_PATH_PROG([IBUS_TABLE_CREATEDB],[ibus-table-createdb],
