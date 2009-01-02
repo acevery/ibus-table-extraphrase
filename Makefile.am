@@ -20,6 +20,7 @@
 
 SUBDIRS = \
 	data \
+	m4 \
 	$(NULL)
 
 ACLOCAL_AMFLAGS = -I m4
