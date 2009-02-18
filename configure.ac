@@ -35,9 +35,10 @@ m4_define([ibus_version],
 
 AC_INIT([package_name], [ibus_version], [http://code.google.com/p/ibus/issues/entry], [package_name])
 AM_INIT_AUTOMAKE([1.10])
+AM_MAINTAINER_MODE
 
 # Checks for programs.
-PKG_CHECK_MODULES([IBUS_TABLE], [ibus-table >= 0.1.2])
+PKG_CHECK_MODULES([IBUS_TABLE], [ibus-table >= 1.1.0])
 
 AC_ARG_VAR([IBUS_TABLE_CREATEDB],[[ibus-table-createdb, which generate db]])
 
